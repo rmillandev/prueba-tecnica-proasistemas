@@ -1,0 +1,25 @@
+# compilado
+/dist
+*.tsbuildinfo
+
+# dependencias
+/node_modules
+
+# logs
+*.log
+npm-debug.log*
+
+# entorno
+.env
+.env.local
+
+# editores y sistema operativo
+.idea
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+
+# cobertura y temporales
+/coverage
+/.nyc_output
+/temp
